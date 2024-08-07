@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my achievements, skills, and projects.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Abdul Raheem Mohammed. I am pursuing a Masters (Master of Science - MS in Project Management). At the helm of operations at 73rd Solution Inc., my focus is on refining customer relationship management systems to enhance client development strategies. My educational pursuit of a Master of Science in Project Management at Cumberland University fortifies my ability to orchestrate complex operations within the organization.</p>
+        <p>With a background in mechanical engineering and a progressive career from Talent Acquisition Specialist to Business Development Manager, my approach is rooted in a technical understanding of industry demands. We leverage this insight to foster robust global talent acquisition, ensuring our clients access premier professionals seamlessly.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project Title: Building My Professional Portfolio Website</h3>
+            <p>I’m embarking on a project to create a personal portfolio website using Stephen R. Covey’s “The 7 Habits of Highly Effective People” as a guide. This website will be my digital showcase, highlighting my achievements, skills, and potential for future career opportunities or educational advancements.</p>
+            <p>By applying Covey’s habits, I’ll not only build a portfolio but also enhance my personal effectiveness and professionalism.</p>
+        </div>
+        <!-- Add more project divs as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <label for="feedbackName">Name:</label>
+            <input type="text" id="feedbackName" name="feedbackName" required>
+            <label for="feedbackMessage">Feedback:</label>
+            <textarea id="feedbackMessage" name="feedbackMessage" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
