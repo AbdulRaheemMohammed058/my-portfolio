@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#collaboration">Collaboration</a></li>
+                <li><a href="#reflection">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my achievements, skills, and projects.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Abdul Raheem Mohammed. I am pursuing a Masters (Master of Science - MS in Project Management). At the helm of operations at 73rd Solution Inc., my focus is on refining customer relationship management systems to enhance client development strategies. My educational pursuit of a Master of Science in Project Management at Cumberland University fortifies my ability to orchestrate complex operations within the organization.</p>
+        <p>With a background in mechanical engineering and a progressive career from Talent Acquisition Specialist to Business Development Manager, my approach is rooted in a technical understanding of industry demands. We leverage this insight to foster robust global talent acquisition, ensuring our clients access premier professionals seamlessly.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project Title: Building My Professional Portfolio Website</h3>
+            <p><strong>Overview:</strong></p>
+            <p>I’m embarking on a project to create a personal portfolio website using Stephen R. Covey’s “The 7 Habits of Highly Effective People” as a guide. This website will be my digital showcase, highlighting my achievements, skills, and potential for future career opportunities or educational advancements.</p>
+            <p>By applying Covey’s habits, I’ll not only build a portfolio but also enhance my personal effectiveness and professionalism.</p>
+            <p><strong>Objectives:</strong></p>
+            <ul>
+                <li>Design and develop my personal portfolio website.</li>
+                <li>Apply the 7 Habits of Highly Effective People to my personal and professional growth.</li>
+                <li>Present my skills, projects, and achievements in a clear and professional manner.</li>
+                <li>Reflect on what I’ve learned and how I’ve applied Covey’s habits.</li>
+            </ul>
+            <p><strong>Assignment Breakdown:</strong></p>
+            <p><strong>Habit 1: Be Proactive</strong></p>
+            <p><strong>Task 1: Research and Select a Web Development Platform or Tool</strong></p>
+            <p>Rationale:</p>
+            <p>After some research, I’ve decided to use WordPress for my portfolio website. WordPress strikes a good balance between user-friendliness and customization options, making it perfect for creating a professional site without requiring deep coding knowledge.</p>
+            <p>Choosing WordPress is a proactive step because it allows me to build a robust and attractive website. I’ve signed up for an online course to learn the ins and outs of WordPress, including how to use plugins and themes to enhance my site. By taking this initiative, I’m ensuring I have the skills needed to make the most out of WordPress, which will help me create a strong portfolio that effectively showcases my abilities and achievements.</p>
+            
+            <p><strong>Habit 2: Begin with the End in Mind</strong></p>
+            <p><strong>Task 2: Draft a Project Plan for My Website</strong></p>
+            <p><strong>Goals:</strong></p>
+            <ul>
+                <li>To create an online presence that highlights my skills and projects.</li>
+                <li>To attract potential employers and clients by showcasing my professional accomplishments.</li>
+                <li>To use the website as a platform for continuous personal and professional growth.</li>
+            </ul>
+            <p><strong>Target Audience:</strong></p>
+            <ul>
+                <li>Potential employers looking for candidates with IT and cybersecurity skills.</li>
+                <li>Clients seeking IT project management and cybersecurity services.</li>
+                <li>Academic professionals and institutions interested in my work and research.</li>
+            </ul>
+            <p><strong>Critical Sections of the Site:</strong></p>
+            <ul>
+                <li>Home:
+                    <ul>
+                        <li>Brief introduction and professional tagline.</li>
+                        <li>Highlights of key projects and skills.</li>
+                        <li>Links to other sections of the site.</li>
+                    </ul>
+                </li>
+                <li>About:
+                    <ul>
+                        <li>Detailed bio including my background, education, and career highlights.</li>
+                        <li>My professional philosophy and values.</li>
+                        <li>Downloadable resume</li>
+                    </ul>
+                </li>
+                <li>Portfolio:
+                    <ul>
+                        <li>Showcase of selected projects with descriptions, technologies used, and outcomes.</li>
+                        <li>Links to live projects or code repositories (e.g., GitHub).</li>
+                    </ul>
+                </li>
+                <li>Contact:
+                    <ul>
+                        <li>Contact form for visitors to get in touch.</li>
+                        <li>Links to my professional social media profiles (e.g., LinkedIn, GitHub).</li>
+                        <li>Email address for direct communication.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>Content Plan:</strong></p>
+            <ul>
+                <li>Home: A warm welcome message, a brief introduction about who I am and what I do, and a few highlights of my most significant projects.</li>
+                <li>About: A detailed biography, my career journey, key accomplishments, and my professional philosophy.</li>
+                <li>Portfolio: A collection of my best projects, each with a description of the project’s goals, the technologies used, my role, and the outcomes. This section will also include screenshots and links to the projects.</li>
+                <li>Contact: A simple and intuitive contact form, links to my LinkedIn and GitHub profiles, and my professional email address.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>Summary of feedback received and how it was implemented.</p>
+        <!-- Add feedback summary here -->
+    </section>
+
+    <section id="collaboration">
+        <h2>Collaboration Summary</h2>
+        <p>Details about the collaboration process and contributions from others.</p>
+        <!-- Add collaboration summary here -->
+    </section>
+
+    <section id="reflection">
+        <h2>Reflection and Future Improvement</h2>
+        <p>Reflect on what you’ve learned and how you plan to improve your website in the future.</p>
+        <!-- Add reflection and future improvement plan here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abdul Raheem Mohammed. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
